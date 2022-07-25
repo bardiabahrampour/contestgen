@@ -34,7 +34,7 @@ void gen_src() {
     txt.push_back(c);
     txt += ".cpp";
     std::ofstream src(txt);
-    src << "#include <bits/stdc++.h>\n" << "using namespace std;\n" << "int main() {\n" << "\n" <<  "return 0;\n" << "}";
+    src << "#include <bits/stdc++.h>\n" << "using namespace std;\n" << "int main() {\n" << "\n" << '\t' << "return 0;\n" << "}";
     src.close();
   }
 }
